@@ -1,0 +1,53 @@
+# Task Tracker (Python + JSON)
+
+## Project URL
+https://roadmap.sh/projects/task-tracker
+
+## Description
+This project is a simple **Task Tracker CLI application** built using **Python**.  
+It allows users to manage tasks using a **JSON file as storage**.
+
+The application supports basic CRUD operations:
+- Add tasks
+- View tasks
+- Update tasks
+- Update task status
+- Delete tasks
+
+Each task stores:
+- Task ID
+- Title
+- Description
+- Status (Todo / In Progress / Done)
+- Created Date
+- Updated Date
+
+The data is stored locally in a **tasks.json** file.
+
+---
+
+## Features
+- Add new tasks
+- View all tasks
+- Update task details
+- Update task status
+- Delete tasks
+- Track creation and update date
+- Menu-driven CLI interface
+
+---
+
+## Technologies Used
+- Python
+- JSON
+- File Handling
+- Datetime module
+
+---
+
+## Project Structure
+TaskManager/
+│
+├── task.py
+├── tasks.json
+└── README.md
